@@ -212,4 +212,4 @@ Here's a video of it in action, being controlled by my [TiLDA Mk3][]:
 
 [TiLDA Mk3]: https://badge.emfcamp.org/wiki/TiLDA_MK3
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5J-X4sWXbGg?&vq=hd1080" frameborder="0" allowfullscreen></iframe>
+{{< youtube 5J-X4sWXbGg >}}
