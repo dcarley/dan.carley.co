@@ -2,12 +2,12 @@ data "aws_acm_certificate" "website" {
   domain      = "${var.website_name}"
   statuses    = ["ISSUED"]
   most_recent = true
-  provider    = "aws.us-east"
+  provider    = aws.us-east
 }
 
 resource "aws_cloudfront_distribution" "website" {
   origin {
-    domain_name = "${aws_s3_bucket.website.website_endpoint}"
+    domain_name = "${aws_s3_bucket_website_configuration.website.website_endpoint}"
     origin_id   = "origin-bucket-${aws_s3_bucket.website.id}"
 
     custom_origin_config {

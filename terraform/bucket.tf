@@ -12,10 +12,21 @@ data "aws_iam_policy_document" "website" {
 
 resource "aws_s3_bucket" "website" {
   bucket = "${var.website_name}"
-  acl    = "private"
-  policy = "${data.aws_iam_policy_document.website.json}"
+}
 
-  website {
-    index_document = "index.html"
+resource "aws_s3_bucket_acl" "website" {
+  bucket = "${aws_s3_bucket.website.bucket}"
+  acl    = "private"
+}
+
+resource "aws_s3_bucket_policy" "website" {
+  bucket = "${aws_s3_bucket.website.bucket}"
+  policy = "${data.aws_iam_policy_document.website.json}"
+}
+
+resource "aws_s3_bucket_website_configuration" "website" {
+  bucket = "${aws_s3_bucket.website.bucket}"
+  index_document {
+    suffix = "index.html"
   }
 }
