@@ -3,7 +3,7 @@ languageCode: en-us
 title: dan.carley.co
 theme: minimo
 pygmentsCodeFences: true
-googleAnalytics: "UA-29004727-1"
+googleAnalytics: "G-5FPN7THH9P"
 permalinks:
   post: /blog/:year/:month/:day/:title/
 menu:
