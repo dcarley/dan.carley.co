@@ -1,0 +1,143 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "terraform": {
+        "pkg-path": "terraform"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "terraform",
+      "broken": false,
+      "derivation": "/nix/store/9p18znp2lhs0vg1wqy486aljj2r1isdf-terraform-1.10.3.drv",
+      "description": "Tool for building, changing, and versioning infrastructure",
+      "install_id": "terraform",
+      "license": "BUSL-1.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "name": "terraform-1.10.3",
+      "pname": "terraform",
+      "rev": "88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "rev_count": 729683,
+      "rev_date": "2024-12-29T11:18:24Z",
+      "scrape_date": "2024-12-31T03:56:31Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "1.10.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/h2yi0x0m9bagy6crd10g87hc5bp211ci-terraform-1.10.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "terraform",
+      "broken": false,
+      "derivation": "/nix/store/x7vqviki0w0ailwrswkra5xsb6fkix1y-terraform-1.10.3.drv",
+      "description": "Tool for building, changing, and versioning infrastructure",
+      "install_id": "terraform",
+      "license": "BUSL-1.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "name": "terraform-1.10.3",
+      "pname": "terraform",
+      "rev": "88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "rev_count": 729683,
+      "rev_date": "2024-12-29T11:18:24Z",
+      "scrape_date": "2024-12-31T03:56:31Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "1.10.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1ry30jrkgm9vp9khwwxq1lwzkibgcjin-terraform-1.10.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "terraform",
+      "broken": false,
+      "derivation": "/nix/store/a3y563fp6jywsqvy0lw6yfnimnbl7k8w-terraform-1.10.3.drv",
+      "description": "Tool for building, changing, and versioning infrastructure",
+      "install_id": "terraform",
+      "license": "BUSL-1.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "name": "terraform-1.10.3",
+      "pname": "terraform",
+      "rev": "88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "rev_count": 729683,
+      "rev_date": "2024-12-29T11:18:24Z",
+      "scrape_date": "2024-12-31T03:56:31Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "1.10.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/khhbh4rr7bw98b32fqdfpnc7jjf2qkk1-terraform-1.10.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "terraform",
+      "broken": false,
+      "derivation": "/nix/store/fhkf4zwykzwa7vzx5sc67ir3683wgggf-terraform-1.10.3.drv",
+      "description": "Tool for building, changing, and versioning infrastructure",
+      "install_id": "terraform",
+      "license": "BUSL-1.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "name": "terraform-1.10.3",
+      "pname": "terraform",
+      "rev": "88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "rev_count": 729683,
+      "rev_date": "2024-12-29T11:18:24Z",
+      "scrape_date": "2024-12-31T03:56:31Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "1.10.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/35ibn3z2r1989hd8dsm8wg9jhklxp5vk-terraform-1.10.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
