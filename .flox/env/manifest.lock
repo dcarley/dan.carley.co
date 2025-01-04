@@ -1,0 +1,276 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "hugo": {
+        "pkg-path": "hugo",
+        "pkg-group": "hugo",
+        "version": "0.87.0"
+      },
+      "rclone": {
+        "pkg-path": "rclone"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/aj7xv37813639rn4ylsxn8mq8dp77v7h-hugo-0.87.0.drv",
+      "description": "A fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8d8a28b47b7c41aeb4ad01a2bd8b7d26986c3512",
+      "name": "hugo-0.87.0",
+      "pname": "hugo",
+      "rev": "8d8a28b47b7c41aeb4ad01a2bd8b7d26986c3512",
+      "rev_count": 312335,
+      "rev_date": "2021-08-29T14:49:37Z",
+      "scrape_date": "2024-08-16T04:15:31Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.87.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/l7n39s1knyjmps5yn4yj314bfvr46mgl-hugo-0.87.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "hugo",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/cklr02bsb8qbnwwx6g5yp192zqjbmv6b-hugo-0.87.0.drv",
+      "description": "A fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8d8a28b47b7c41aeb4ad01a2bd8b7d26986c3512",
+      "name": "hugo-0.87.0",
+      "pname": "hugo",
+      "rev": "8d8a28b47b7c41aeb4ad01a2bd8b7d26986c3512",
+      "rev_count": 312335,
+      "rev_date": "2021-08-29T14:49:37Z",
+      "scrape_date": "2024-08-16T04:15:31Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.87.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ixkiaymj277lr62kqdmbq5larzw3ibvn-hugo-0.87.0"
+      },
+      "system": "aarch64-linux",
+      "group": "hugo",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/lrz27zv20zwg7y0qh9hirfdgbx0d94hh-hugo-0.87.0.drv",
+      "description": "A fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8d8a28b47b7c41aeb4ad01a2bd8b7d26986c3512",
+      "name": "hugo-0.87.0",
+      "pname": "hugo",
+      "rev": "8d8a28b47b7c41aeb4ad01a2bd8b7d26986c3512",
+      "rev_count": 312335,
+      "rev_date": "2021-08-29T14:49:37Z",
+      "scrape_date": "2024-08-16T04:15:31Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.87.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dxrpwzfpp4kz5hcdwai4vs1d13r9j1d6-hugo-0.87.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "hugo",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/ylyqh40hj925p9w0xj70fgnvnkc6k8j8-hugo-0.87.0.drv",
+      "description": "A fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8d8a28b47b7c41aeb4ad01a2bd8b7d26986c3512",
+      "name": "hugo-0.87.0",
+      "pname": "hugo",
+      "rev": "8d8a28b47b7c41aeb4ad01a2bd8b7d26986c3512",
+      "rev_count": 312335,
+      "rev_date": "2021-08-29T14:49:37Z",
+      "scrape_date": "2024-08-16T04:15:31Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.87.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/52gmkah588632hnp3kqzb4x965q7ymw0-hugo-0.87.0"
+      },
+      "system": "x86_64-linux",
+      "group": "hugo",
+      "priority": 5
+    },
+    {
+      "attr_path": "rclone",
+      "broken": false,
+      "derivation": "/nix/store/j9pwkamsfjy9sw9bwnj1dac2q5gq4nfb-rclone-1.68.2.drv",
+      "description": "Command line program to sync files and directories to and from major cloud storage",
+      "install_id": "rclone",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "name": "rclone-1.68.2",
+      "pname": "rclone",
+      "rev": "88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "rev_count": 729683,
+      "rev_date": "2024-12-29T11:18:24Z",
+      "scrape_date": "2024-12-31T03:56:31Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.68.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "man": "/nix/store/xps2zcgvnklhhb6wz6fy4rmhrr8g4vzj-rclone-1.68.2-man",
+        "out": "/nix/store/hhwf7f8m75svc9srml3fwxa2d9kpzpwi-rclone-1.68.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "rclone",
+      "broken": false,
+      "derivation": "/nix/store/dx86mcddwiavs6gp6smp6qzxg75kj6xn-rclone-1.68.2.drv",
+      "description": "Command line program to sync files and directories to and from major cloud storage",
+      "install_id": "rclone",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "name": "rclone-1.68.2",
+      "pname": "rclone",
+      "rev": "88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "rev_count": 729683,
+      "rev_date": "2024-12-29T11:18:24Z",
+      "scrape_date": "2024-12-31T03:56:31Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.68.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "man": "/nix/store/35dbcmmr2mskjcyq4yrjiscdrg1f5g6y-rclone-1.68.2-man",
+        "out": "/nix/store/pls1xz8l8gi79ijcj22nwjlb2gn0izhv-rclone-1.68.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "rclone",
+      "broken": false,
+      "derivation": "/nix/store/9hpi0hayaxdxdvwfk0358dnl7pqfxxia-rclone-1.68.2.drv",
+      "description": "Command line program to sync files and directories to and from major cloud storage",
+      "install_id": "rclone",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "name": "rclone-1.68.2",
+      "pname": "rclone",
+      "rev": "88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "rev_count": 729683,
+      "rev_date": "2024-12-29T11:18:24Z",
+      "scrape_date": "2024-12-31T03:56:31Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.68.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "man": "/nix/store/s6qy68napc9ks4xa34ni6i92y822g1ba-rclone-1.68.2-man",
+        "out": "/nix/store/dk9qhvwdikkl26di0d1nqaqgh9wncz4r-rclone-1.68.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "rclone",
+      "broken": false,
+      "derivation": "/nix/store/zy553zbdl47l81y9xgfc90fp2vz9h1cg-rclone-1.68.2.drv",
+      "description": "Command line program to sync files and directories to and from major cloud storage",
+      "install_id": "rclone",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "name": "rclone-1.68.2",
+      "pname": "rclone",
+      "rev": "88195a94f390381c6afcdaa933c2f6ff93959cb4",
+      "rev_count": 729683,
+      "rev_date": "2024-12-29T11:18:24Z",
+      "scrape_date": "2024-12-31T03:56:31Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.68.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "man": "/nix/store/p439l1y67r1x0aqd2862knv4l0h3kgrf-rclone-1.68.2-man",
+        "out": "/nix/store/irfa3qfp079zjnff7vkjkac6z0w21vxi-rclone-1.68.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
