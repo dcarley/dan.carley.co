@@ -2,8 +2,6 @@ version = 1
 
 [install]
 hugo.pkg-path = "hugo"
-hugo.version = "0.87.0"
-hugo.pkg-group = "hugo"
 rclone.pkg-path = "rclone"
 
 [options]
