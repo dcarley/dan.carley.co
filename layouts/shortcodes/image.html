@@ -1,0 +1,5 @@
+{{- $filename := (.Get "src") -}}
+{{- $alt := (or (.Get "alt") "") -}}
+{{- $image := ($.Page.Resources.Get $filename) -}}
+{{- $converted := $image.Resize (printf "%dx webp" $image.Width) -}}
+{{- (printf "![%s](%s)" $alt $converted.RelPermalink) -}}
