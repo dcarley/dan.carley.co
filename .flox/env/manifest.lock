@@ -13,7 +13,12 @@
     "hook": {
       "on-activate": "  git submodule update --init\n"
     },
-    "options": {}
+    "options": {},
+    "services": {
+      "hugo": {
+        "command": "hugo server --buildDrafts"
+      }
+    }
   },
   "packages": [
     {

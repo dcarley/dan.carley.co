@@ -8,3 +8,6 @@ rclone.pkg-path = "rclone"
 on-activate = """
   git submodule update --init
 """
+
+[services.hugo]
+command = "hugo server --buildDrafts"
