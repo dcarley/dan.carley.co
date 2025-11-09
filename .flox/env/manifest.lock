@@ -10,6 +10,9 @@
         "pkg-path": "rclone"
       }
     },
+    "hook": {
+      "on-activate": "  git submodule update --init\n"
+    },
     "options": {}
   },
   "packages": [

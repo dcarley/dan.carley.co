@@ -10,8 +10,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:
-        submodules: true
 
     - name: "Install Flox"
       uses: "flox/install-flox-action@v2"

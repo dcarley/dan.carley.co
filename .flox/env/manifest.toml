@@ -3,3 +3,8 @@ version = 1
 [install]
 hugo.pkg-path = "hugo"
 rclone.pkg-path = "rclone"
+
+[hook]
+on-activate = """
+  git submodule update --init
+"""
