@@ -1,6 +1,7 @@
 +++
 date = 2018-01-18T18:17:00Z
 title = "BT Infinity and AWS CloudFront IPv6 MTU"
+path = "blog/2018/01/18/bt-infinity-and-aws-cloudfront-ipv6-mtu/"
 +++
 
 Late last year I converted this blog from Octopress to Hugo and migrated it

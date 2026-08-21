@@ -1,6 +1,7 @@
 +++
 date = 2015-08-10T18:16:51Z
 title = "Problems with online services"
+path = "blog/2015/08/10/problems-with-online-services/"
 +++
 
 I recently had problems with the online services of two well known

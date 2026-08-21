@@ -1,6 +1,7 @@
 +++
 date = 2025-01-04T20:57:03Z
 title = "Replacing a Heating Controller"
+path = "blog/2025/01/04/replacing-a-heating-controller/"
 +++
 
 Our hot water system stopped hot watering on Christmas Eve. What follows is how I fixed it. For context this is a central heating system in a UK house with a conventional (not combi) boiler and unvented hot water tank.

@@ -1,6 +1,7 @@
 +++
 date = 2014-06-12T00:00:00Z
 title = "Other people's firewalls"
+path = "blog/2014/06/12/other-peoples-firewalls/"
 +++
 
 The more appropriate title would be "ingress and egress firewalls that

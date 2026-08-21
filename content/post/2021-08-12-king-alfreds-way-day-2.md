@@ -1,6 +1,7 @@
 +++
 date = 2021-08-12T12:00:00+01:00
 title = "King Alfred's Way: Day 2"
+path = "blog/2021/08/12/king-alfreds-way-day-2/"
 +++
 
 # Malborough to Reading

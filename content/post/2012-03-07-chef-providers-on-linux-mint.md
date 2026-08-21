@@ -1,6 +1,7 @@
 +++
 date = 2012-03-07T00:00:00Z
 title = "Chef providers on Linux Mint"
+path = "blog/2012/03/07/chef-providers-on-linux-mint/"
 +++
 
 I was attempting to install a package on Linux Mint using chef-solo when I was greeted by this rather strange error:

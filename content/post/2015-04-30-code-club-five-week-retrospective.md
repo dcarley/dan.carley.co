@@ -1,6 +1,7 @@
 +++
 date = 2015-04-30T00:00:00Z
 title = "Code Club five week retrospective"
+path = "blog/2015/04/30/code-club-five-week-retrospective/"
 +++
 
 A couple of years ago at [Velocity Europe][] conference I saw a keynote

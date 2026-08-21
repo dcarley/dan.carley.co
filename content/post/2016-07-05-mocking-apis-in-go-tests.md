@@ -1,6 +1,7 @@
 +++
 date = 2016-07-05T08:54:52Z
 title = "Mocking APIs in Go Tests"
+path = "blog/2016/07/05/mocking-apis-in-go-tests/"
 +++
 
 There are two patterns that I've come to really appreciate when testing Go

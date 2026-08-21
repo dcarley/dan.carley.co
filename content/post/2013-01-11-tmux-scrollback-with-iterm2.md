@@ -1,6 +1,7 @@
 +++
 date = 2013-01-11T00:00:00Z
 title = "tmux scrollback with iTerm2"
+path = "blog/2013/01/11/tmux-scrollback-with-iterm2/"
 +++
 
 ## tmux scrollback 

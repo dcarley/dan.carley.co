@@ -1,6 +1,7 @@
 +++
 date = 2026-02-10T09:00:00Z
 title = "Advent of CLI coding agents"
+path = "blog/2026/02/10/advent-of-cli-coding-agents/"
 +++
 
 ## Background

@@ -1,6 +1,7 @@
 +++
 date = 2012-02-07T01:00:00Z
 title = "Rbenv and Bundler"
+path = "blog/2012/02/07/rbenv-and-bundler/"
 +++
 
 I have been an occasional user of [RVM](http://beginrescueend.com/) to date. I like the problems that it solves; the ability to switch between different versions of Ruby and isolate per-project installs of Gems. But I just can't gel with the way that it solves them. Aside from arguments about `curl | sh` installs and shell overrides, it just feels like there is too much magic involved. I'm not a fan of magic.

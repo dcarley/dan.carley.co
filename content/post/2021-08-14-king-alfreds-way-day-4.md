@@ -1,6 +1,7 @@
 +++
 date = 2021-08-14T12:00:00+01:00
 title = "King Alfred's Way: Day 4"
+path = "blog/2021/08/14/king-alfreds-way-day-4/"
 +++
 
 # Haslemere to Reading

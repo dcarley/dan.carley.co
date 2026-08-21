@@ -1,6 +1,7 @@
 +++
 date = 2015-10-08T08:54:27Z
 title = "Lead Developer and Operability conferences 2015"
+path = "blog/2015/10/08/lead-developer-and-operability-conferences-2015/"
 +++
 
 I recently attended two conferences; [Lead Developer](http://2015.theleaddeveloper.com/)

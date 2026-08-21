@@ -1,5 +1,6 @@
 +++
 title = "About"
+path = "about/"
 +++
 
 I'm an experienced team lead, software developer, systems administrator, and
