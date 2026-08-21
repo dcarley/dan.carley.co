@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{#- The about page is a section rather than a page so that it stays out of
+    the root section's page list, which the homepage renders as posts. -#}
+{%- block main -%}
+  <main>
+    {{ section.content | safe }}
+  </main>
+{% endblock %}

@@ -1,6 +1,6 @@
 +++
 title = "About"
-path = "about/"
+template = "about.html"
 +++
 
 I'm an experienced team lead, software developer, systems administrator, and

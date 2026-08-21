@@ -1,0 +1,32 @@
+base_url = "https://dan.carley.co"
+title = "dan.carley.co"
+author = "Dan Carley"
+theme = "zola-bearblog"
+
+# Feed is served at /atom.xml, the same URL Hugo used.
+generate_feeds = true
+
+compile_sass = false
+build_search_index = false
+taxonomies = []
+
+[translations]
+site = "site"
+
+[markdown.highlighting]
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+[extra]
+date_format = "%Y-%m-%d"
+google_analytics = "G-5FPN7THH9P"
+language_switcher = false
+hide_made_with_line = true
+
+[[extra.main_menu]]
+name = "home"
+url = "@/_index.md"
+
+[[extra.main_menu]]
+name = "about"
+url = "@/about/_index.md"

@@ -1,7 +1,7 @@
-version = 1
+schema-version = "1.13.0"
 
 [install]
-hugo.pkg-path = "hugo"
+zola.pkg-path = "zola"
 rclone.pkg-path = "rclone"
 
 [hook]
@@ -9,5 +9,5 @@ on-activate = """
   git submodule update --init
 """
 
-[services.hugo]
-command = "hugo server --buildDrafts"
+[services.zola]
+command = "zola serve --drafts"

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{#- The theme's index only renders the section content. The homepage here
+    lists every post, newest first and paginated, with the same list markup
+    as the theme's section template so its CSS applies. Posts live in the
+    transparent `blog` section, so they surface in this section's paginator. -#}
+{%- block main -%}
+  <main>
+    {{ section.content | safe }}
+    <ul class="blog-posts">
+      {%- for page in paginator.pages %}
+        <li>
+          <span>
+            <i>
+              <time datetime="{{ page.date | date(format='%+') }}" pubdate>
+                {{ page.date | date(format=config.extra.date_format) }}
+              </time>
+            </i>
+          </span>
+          <a href="{{ page.permalink }}">{{ page.title }}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+    {%- if paginator.number_pagers > 1 %}
+    <nav class="pagination" aria-label="Pages">
+      {%- if paginator.previous %}
+      <a href="{{ paginator.previous }}">&larr; Newer</a>
+      {%- endif %}
+      <span>Page {{ paginator.current_index }} of {{ paginator.number_pagers }}</span>
+      {%- if paginator.next %}
+      <a href="{{ paginator.next }}">Older &rarr;</a>
+      {%- endif %}
+    </nav>
+    {%- endif %}
+  </main>
+{% endblock %}
