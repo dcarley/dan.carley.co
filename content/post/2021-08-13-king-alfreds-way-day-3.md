@@ -1,7 +1,7 @@
----
-date: "2021-08-13T12:00:00+01:00"
-title: "King Alfred's Way: Day 3"
----
++++
+date = 2021-08-13T12:00:00+01:00
+title = "King Alfred's Way: Day 3"
++++
 
 # Reading to Haslemere
 

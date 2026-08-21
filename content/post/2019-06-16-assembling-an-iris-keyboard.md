@@ -1,7 +1,7 @@
----
-date: "2019-06-16T12:29:34Z"
-title: "Assembling an Iris keyboard"
----
++++
+date = 2019-06-16T12:29:34Z
+title = "Assembling an Iris keyboard"
++++
 
 I went looking for a new keyboard for a few reasons. Firstly my previous keyboard was playing up and I couldn't fix it myself. I've found that small adjustments to my working setup have been good at combating RSI and it was time for a change. I also fancied a new electronics project and there was something alluring about mechanical keyboards.
 

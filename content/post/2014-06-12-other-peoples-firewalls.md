@@ -1,7 +1,7 @@
----
-date: 2014-06-12T00:00:00Z
-title: Other people's firewalls
----
++++
+date = 2014-06-12T00:00:00Z
+title = "Other people's firewalls"
++++
 
 The more appropriate title would be "ingress and egress firewalls that
 affect your connectivity but which you have no visibility and limited

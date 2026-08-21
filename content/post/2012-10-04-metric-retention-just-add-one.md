@@ -1,7 +1,7 @@
----
-date: 2012-10-04T00:00:00Z
-title: Metric retention just add one
----
++++
+date = 2012-10-04T00:00:00Z
+title = "Metric retention just add one"
++++
 
 Something occurred to me a while back when I was setting up some monitoring. Maybe it's obvious to everyone else, but it's not something that I've seen discussed or written before:
 

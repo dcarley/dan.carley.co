@@ -1,7 +1,7 @@
----
-date: 2018-01-18T18:17:00Z
-title: BT Infinity and AWS CloudFront IPv6 MTU
----
++++
+date = 2018-01-18T18:17:00Z
+title = "BT Infinity and AWS CloudFront IPv6 MTU"
++++
 
 Late last year I converted this blog from Octopress to Hugo and migrated it
 from a Linode VM to AWS S3, in an effort to spend less of my free time

@@ -1,7 +1,7 @@
----
-date: "2021-08-15T15:00:00+01:00"
-title: "King Alfred's Way: Reflections"
----
++++
+date = 2021-08-15T15:00:00+01:00
+title = "King Alfred's Way: Reflections"
++++
 
 # Route
 

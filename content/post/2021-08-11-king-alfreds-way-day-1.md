@@ -1,7 +1,7 @@
----
-date: "2021-08-11T12:00:00+01:00"
-title: "King Alfred's Way: Day 1"
----
++++
+date = 2021-08-11T12:00:00+01:00
+title = "King Alfred's Way: Day 1"
++++
 
 # Preface
 

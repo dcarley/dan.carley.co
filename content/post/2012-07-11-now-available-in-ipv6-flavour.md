@@ -1,7 +1,7 @@
----
-date: 2012-07-11T00:00:00Z
-title: Now available in IPv6 flavour
----
++++
+date = 2012-07-11T00:00:00Z
+title = "Now available in IPv6 flavour"
++++
 
 A friend recently reminded me that IPv6 is still a thing. Contrary to what my ISP might have me know. That got me thinking, I must check that stuff out..
 

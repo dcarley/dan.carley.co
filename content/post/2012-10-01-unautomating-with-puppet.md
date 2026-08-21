@@ -1,7 +1,7 @@
----
-date: 2012-10-01T00:00:00Z
-title: Unautomating with Puppet
----
++++
+date = 2012-10-01T00:00:00Z
+title = "Unautomating with Puppet"
++++
 
 Github's recent outage and [nicely detailed post-mortem](https://github.com/blog/1261-github-availability-this-week) has generated a bit of chatter about whether "too much automation" is a thing and the dangers thereof:
 

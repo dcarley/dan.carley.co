@@ -1,7 +1,7 @@
----
-date: 2016-03-31T08:45:25Z
-title: When did submodule include commit X
----
++++
+date = 2016-03-31T08:45:25Z
+title = "When did submodule include commit X"
++++
 
 Cloud Foundry uses [git submodules][] in [cloudfoundry/cf-release][] to
 track dependencies from other repositories such as

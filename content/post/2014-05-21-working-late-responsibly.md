@@ -1,7 +1,7 @@
----
-date: 2014-05-21T00:00:00Z
-title: Working late, responsibly
----
++++
+date = 2014-05-21T00:00:00Z
+title = "Working late, responsibly"
++++
 
 We've gone through a period of time in our team telling each other not to
 work outside of office hours. The situation was prompted by a number of

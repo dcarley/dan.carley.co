@@ -1,7 +1,7 @@
----
-date: 2013-12-16T00:00:00Z
-title: ClamAV broken pipe
----
++++
+date = 2013-12-16T00:00:00Z
+title = "ClamAV broken pipe"
++++
 
 A while ago we upgraded ClamAV at $JOB from an [fpm][fpm] package of
 dubious-quality to an upstream Ubuntu package. In doing so we found that one

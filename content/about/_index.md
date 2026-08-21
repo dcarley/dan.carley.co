@@ -1,6 +1,6 @@
----
-title: About
----
++++
+title = "About"
++++
 
 I'm an experienced team lead, software developer, systems administrator, and
 network engineer.

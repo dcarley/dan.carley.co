@@ -1,7 +1,7 @@
----
-date: 2015-04-30T00:00:00Z
-title: Code Club five week retrospective
----
++++
+date = 2015-04-30T00:00:00Z
+title = "Code Club five week retrospective"
++++
 
 A couple of years ago at [Velocity Europe][] conference I saw a keynote
 presentation by [John Wards called "An introduction to Code Club"][]. The

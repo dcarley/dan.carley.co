@@ -1,7 +1,7 @@
----
-date: "2026-02-10T09:00:00Z"
-title: "Advent of CLI coding agents"
----
++++
+date = 2026-02-10T09:00:00Z
+title = "Advent of CLI coding agents"
++++
 
 ## Background
 

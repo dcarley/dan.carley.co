@@ -1,7 +1,7 @@
----
-date: 2016-07-05T08:54:52Z
-title: Mocking APIs in Go Tests
----
++++
+date = 2016-07-05T08:54:52Z
+title = "Mocking APIs in Go Tests"
++++
 
 There are two patterns that I've come to really appreciate when testing Go
 code that uses libraries to access third-party APIs. They aren't necessarily

@@ -1,7 +1,7 @@
----
-date: 2017-05-24T11:08:56Z
-title: Boldport Cordwood Puzzle Too
----
++++
+date = 2017-05-24T11:08:56Z
+title = "Boldport Cordwood Puzzle Too"
++++
 
 This post is about building the [Boldport Cordwood Puzzle Too][cp-too] which
 is described as:

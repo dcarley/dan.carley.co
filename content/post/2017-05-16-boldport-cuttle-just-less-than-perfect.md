@@ -1,7 +1,7 @@
----
-date: 2017-05-16T15:00:53Z
-title: Boldport Cuttle (just less than perfect)
----
++++
+date = 2017-05-16T15:00:53Z
+title = "Boldport Cuttle (just less than perfect)"
++++
 
 This post is about building the [Boldport Cuttle][] which is described as:
 

@@ -1,7 +1,7 @@
----
-date: 2015-03-02T00:00:00Z
-title: In memory of Matt Carpenter
----
++++
+date = 2015-03-02T00:00:00Z
+title = "In memory of Matt Carpenter"
++++
 
 It was February four years ago that a friend and ex-colleague (in that
 order) of mine committed suicide. I could say plenty about him, but for the
