@@ -49,11 +49,11 @@ I chose to use [surface mount diodes][diodes] instead of the through-hole diodes
 
 [diodes]: https://www.aliexpress.com/item/100pcs-SMD-diode-0805-SOD-123-1N5819-1N4007-1N4148-SOD123-SOD-323-1206-1N4148WS-1N5819WS-B5819WS/32849879904.html
 
-![](/images/iris-diodes.jpg)
+{{ image(src="/images/iris-diodes.jpg", alt="") }}
 
 Next I soldered the headers, jacks, and buttons. The later addition of the switches make these joints inaccessible.
 
-![](/images/iris-headers.jpg)
+{{ image(src="/images/iris-headers.jpg", alt="") }}
 
 # Switches
 
@@ -63,7 +63,7 @@ Getting the switches perfectly straight was a bit of a pain. I deliberately boug
 
 [switches]: https://www.aliexpress.com/item/Gateron-lara-mowery-shaft-transparent-shaft-mechanical-keyboard-switch-black-tea-shaft/32679823499.html
 
-![](/images/iris-switches.jpg)
+{{ image(src="/images/iris-switches.jpg", alt="") }}
 
 # Controllers
 
@@ -71,13 +71,13 @@ I flashed the [Pro Micro][promicro] controllers beforehand to make sure that the
 
 [promicro]: https://www.aliexpress.com/item/1pcs-TENSTAR-ROBOT-With-the-bootloader-Black-Pro-Micro-ATmega32U4-5V-16MHz-Module-controller-Mega32U4-mini/32849563958.html
 
-![](/images/iris-promicros.jpg)
+{{ image(src="/images/iris-promicros.jpg", alt="") }}
 
 I removed the plastic spacers from the header pins so that the boards didn't protrude too much and it would be easier desolder in the event of a failure. Though hopefully this [shouldn't be necessary][staggered] in the future. I didn't need to add any insulation underneath because they sat perfectly on top of the plastic pins of the switches.
 
 [staggered]: https://twitter.com/dancarley/status/1042783150550777857
 
-![](/images/iris-headers2.jpg)
+{{ image(src="/images/iris-headers2.jpg", alt="") }}
 
 # Tenting
 
@@ -91,7 +91,7 @@ I also added some [rubber feet][feet] underneath so that it didn't scoot around 
 
 [feet]: https://www.ebay.co.uk/itm/30pk-Soft-Close-Bumper-Stops-Self-Adhesive-Pads-Coaster-Feet-6-3-x-1-6mm-Domed/142806077010
 
-![](/images/iris-tenting.jpg)
+{{ image(src="/images/iris-tenting.jpg", alt="") }}
 
 # Keycaps
 
@@ -101,7 +101,7 @@ I found some [blank keycaps][keycaps] that came in a variety of colours, at a go
 
 [keycaps]: https://www.aliexpress.com/item/pbt-dsa-keycap-dsa-1u-mixded-color-red-esc-yellow-blue-keycaps-for-gaming-mechanical-keyboard/32820475945.html
 
-![](/images/iris-complete.jpg)
+{{ image(src="/images/iris-complete.jpg", alt="") }}
 
 # Typing
 

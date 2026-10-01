@@ -1,0 +1,9 @@
+<style>
+  /* The image shortcode emits native width/height attributes so the browser
+     can reserve space before lazy-loaded images arrive. The theme only caps
+     width, which would leave the attribute height in place and stretch the
+     image; letting height follow width preserves the aspect ratio. */
+  img {
+    height: auto;
+  }
+</style>

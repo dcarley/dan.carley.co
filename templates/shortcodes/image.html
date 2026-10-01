@@ -1,0 +1,11 @@
+{#- Render an image as WebP at its native size, lazily loaded.
+    `src` is either a site-absolute path under `static/` (e.g. `/images/x.jpg`)
+    or a filename colocated with the page in its bundle directory. -#}
+{%- if src is starting_with("/") -%}
+  {%- set path = src | trim_start_matches(pat="/") -%}
+{%- else -%}
+  {%- set path = page.colocated_path ~ src -%}
+{%- endif -%}
+{%- set meta = get_image_metadata(path=path) -%}
+{%- set img = resize_image(path=path, width=meta.width, op="fit_width", format="webp", quality=75) -%}
+<img src="{{ img.url }}" alt="{{ alt | default(value='') }}" width="{{ img.width }}" height="{{ img.height }}" loading="lazy">

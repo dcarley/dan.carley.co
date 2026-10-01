@@ -30,11 +30,11 @@ Blu-Tack for both purposes.
 
 The project comes in this lovely packet which seems a shame to tear open:
 
-![](/images/cptoo-packet.jpg)
+{{ image(src="/images/cptoo-packet.jpg", alt="") }}
 
 Inside are the components and two identical boards:
 
-![](/images/cptoo-contents.jpg)
+{{ image(src="/images/cptoo-contents.jpg", alt="") }}
 
 ### MOSETs
 
@@ -45,11 +45,11 @@ legs that you don't need to splay.
 
 I first secured them to the board and clipped the leads short:
 
-![](/images/cptoo-fets_leads.jpg)
+{{ image(src="/images/cptoo-fets_leads.jpg", alt="") }}
 
 Then soldered them in place:
 
-![](/images/cptoo-fets_soldered.jpg)
+{{ image(src="/images/cptoo-fets_soldered.jpg", alt="") }}
 
 ### LEDs
 
@@ -58,9 +58,9 @@ my [Boldport LIGEMDIO][ligemdio]:
 
 [ligemdio]: https://www.boldport.com/products/ligemdio/
 
-![](/images/cptoo-leds_green.jpg)
+{{ image(src="/images/cptoo-leds_green.jpg", alt="") }}
 
-![](/images/cptoo-leds_yellow.jpg)
+{{ image(src="/images/cptoo-leds_yellow.jpg", alt="") }}
 
 The pads indicate the orientation of the LEDs. The anode (longer leg,
 smaller plate) goes to the square pad (+ve) and the cathode (shorter leg,
@@ -69,13 +69,13 @@ side of the board and then realised my mistake at the last minute.
 
 I secured them flush to the board so that I could clip the leads:
 
-![](/images/cptoo-leds_leads.jpg)
+{{ image(src="/images/cptoo-leds_leads.jpg", alt="") }}
 
 I soldered them and cleaned off some of the flux:
 
-![](/images/cptoo-leds_soldered_front.jpg)
+{{ image(src="/images/cptoo-leds_soldered_front.jpg", alt="") }}
 
-![](/images/cptoo-leds_soldered_back.jpg)
+{{ image(src="/images/cptoo-leds_soldered_back.jpg", alt="") }}
 
 I considered attaching the headers next but decided to leave them because I
 thought they'd get in the way of the wires that connect between the two
@@ -101,7 +101,7 @@ places, so I double checked them with a multimeter in continuity mode. The
 
 Here's the diagram of the back of the board:
 
-![](/images/cptoo-diagram.jpg)
+{{ image(src="/images/cptoo-diagram.jpg", alt="") }}
 
 When the opposing board is joined with resistors then the vertical +ve rails
 get connected to the LED anodes and MOSFET gates. This turns all of the LEDs
@@ -119,7 +119,7 @@ it at the time.
 
 I dropped the resistors into place on one board:
 
-![](/images/cptoo-resistors_standing.jpg)
+{{ image(src="/images/cptoo-resistors_standing.jpg", alt="") }}
 
 I attached the standoff to the other board because I wouldn't be able to
 get it in position after the resistors were in. To get the resistors into
@@ -127,7 +127,7 @@ the other board I stood both boards up facing each other in blobs of
 Blu-Tack. Then I guided the leg of each resistor from behind over to the
 other board, letting them rest in the middle:
 
-![](/images/cptoo-resistors_threading.jpg)
+{{ image(src="/images/cptoo-resistors_threading.jpg", alt="") }}
 
 ### Capacitor
 
@@ -137,7 +137,7 @@ power on one board and -ve power on the other:
 
 [decoupling capacitor]: https://learn.sparkfun.com/tutorials/capacitors/application-examples#decoupling
 
-![](/images/cptoo-capacitor.jpg)
+{{ image(src="/images/cptoo-capacitor.jpg", alt="") }}
 
 ### Joining the boards
 
@@ -157,7 +157,7 @@ Blu-Tack.
 The four corners held all of the other leads at the correct height when
 stood up:
 
-![](/images/cptoo-resistors_secured.jpg)
+{{ image(src="/images/cptoo-resistors_secured.jpg", alt="") }}
 
 I soldered all of the resistor leads on one side. Normally I clip them short
 first, but I was worried about them moving position, so I had to clip them
@@ -167,7 +167,7 @@ Then I clipped and soldered the leads on the other side. Except for the
 middle four, which I didn't clip because I thought I might need to buy some
 new cutters to reach them between the LEDs:
 
-![](/images/cptoo-resistors_half_soldered.jpg)
+{{ image(src="/images/cptoo-resistors_half_soldered.jpg", alt="") }}
 
 I later managed to clip the middle four leads by cutting each of them down
 to about 5mm so that I had enough clearance and then angling the cutters
@@ -184,30 +184,30 @@ that the header could sit neatly at the bottom. It took a while to
 straighten out the wire and cut it to length. A little too much solder
 wicked through to the other side but I managed to tidy it up a bit later:
 
-![](/images/cptoo-wires_bottom.jpg)
+{{ image(src="/images/cptoo-wires_bottom.jpg", alt="") }}
 
 I added the eight pin header for the gates. I toyed with the idea of having
 it facing inside the boards so that it was tucked away, but it wouldn't
 stand up straight when the wires were attached, so I put it on the outside:
 
-![](/images/cptoo-bottom.jpg)
+{{ image(src="/images/cptoo-bottom.jpg", alt="") }}
 
 I soldered the capacitor in place. Wires need to be added to carry the power
 from one board to the other, +ve to +ve (square pads) and -ve to -ve (round
 pads). Lastly the power header goes on +ve and -ve of the same board that
 has the eight pin header:
 
-![](/images/cptoo-top.jpg)
+{{ image(src="/images/cptoo-top.jpg", alt="") }}
 
 ### Completed
 
 Here's the end result after cleaning off the flux:
 
-![](/images/cptoo-front.jpg)
+{{ image(src="/images/cptoo-front.jpg", alt="") }}
 
-![](/images/cptoo-side.jpg)
+{{ image(src="/images/cptoo-side.jpg", alt="") }}
 
-![](/images/cptoo-back.jpg)
+{{ image(src="/images/cptoo-back.jpg", alt="") }}
 
 Here's a video of it in action, being controlled by my [TiLDA Mk3][]:
 

@@ -58,14 +58,14 @@ the board confirmed that it had worked.
 
 Here's a picture of the board afterwards with shiny exposed pads:
 
-![Cuttle with cleaned pads](/images/cuttle_cleaned.jpg)
+{{ image(src="/images/cuttle_cleaned.jpg", alt="Cuttle with cleaned pads") }}
 
 Adding the components was straightforward. The silkscreen tells you
 everything that you need to know. The end result looked like this:
 
-![Cuttle front](/images/cuttle_front.jpg)
+{{ image(src="/images/cuttle_front.jpg", alt="Cuttle front") }}
 
-![Cuttle back](/images/cuttle_back.jpg)
+{{ image(src="/images/cuttle_back.jpg", alt="Cuttle back") }}
 
 
 ## Initial attempt at connecting
@@ -223,7 +223,7 @@ The last one is what we want. Transfer the file to your RPi and flash it:
 
 Now the LED should be flashing:
 
-![Cuttle connected to Raspberry Pi](/images/cuttle_rpi.jpg)
+{{ image(src="/images/cuttle_rpi.jpg", alt="Cuttle connected to Raspberry Pi") }}
 
 Except mine was flashing much slower than the 1 second interval specified by
 the code.
@@ -305,4 +305,4 @@ Now your LED should be flashing at the right speed and you can can use the
 standard serial headers to connect the board to the Arduino IDE and upload
 new sketches:
 
-![Cuttle connected to CH340G](/images/cuttle_ch340g.jpg)
+{{ image(src="/images/cuttle_ch340g.jpg", alt="Cuttle connected to CH340G") }}
