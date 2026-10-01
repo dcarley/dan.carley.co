@@ -6,4 +6,12 @@
   img {
     height: auto;
   }
+  /* The youtube shortcode emits a bare iframe, which browsers size at 300x150
+     by default. Fill the content column and keep a 16:9 frame so the embed
+     scales with the column on narrow viewports. */
+  .youtube iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+  }
 </style>

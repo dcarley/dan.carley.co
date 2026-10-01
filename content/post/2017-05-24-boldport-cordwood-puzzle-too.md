@@ -213,4 +213,4 @@ Here's a video of it in action, being controlled by my [TiLDA Mk3][]:
 
 [TiLDA Mk3]: https://badge.emfcamp.org/wiki/TiLDA_MK3
 
-{{< youtube 5J-X4sWXbGg >}}
+{{ youtube(id="5J-X4sWXbGg") }}
