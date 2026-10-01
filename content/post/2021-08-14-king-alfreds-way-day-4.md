@@ -115,7 +115,7 @@ Fin! Beneath the statue of King Alfred.
 
 {{ image(src="/images/kaw4-statue.jpg", alt="") }}
 
-The last day was a beautiful way to finish up. I was pretty sad that it was over so quickly. You can read more about my planning and reflections of the trip [here]({{< relref "2021-08-15-king-alfreds-way-reflections.md" >}}).
+The last day was a beautiful way to finish up. I was pretty sad that it was over so quickly. You can read more about my planning and reflections of the trip [here](@/blog/2021-08-15-king-alfreds-way-reflections.md).
 
 Stats for the day:
 
