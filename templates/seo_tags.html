@@ -1,0 +1,56 @@
+{%- if page %}
+  {%- set title = page.title %}
+  {%- set description = page.description %}
+  {%- set content = page.content %}
+  {%- set url = page.permalink %}
+{%- elif section %}
+  {%- set title = section.title %}
+  {%- set description = section.description %}
+  {%- set content = section.content %}
+  {%- set url = current_url %}
+{%- endif %}
+{%- set title = title | default(value=config.title) %}
+{%- if not description and content %}
+  {%- set_global words = [] %}
+  {%- set_global chars = 0 %}
+  {%- set_global truncated = false %}
+  {%- for paragraph in content | split(pat="<p>") | slice(start=1) %}
+    {%- set text = paragraph | split(pat="</p>") | first | striptags | split(pat="\n") | join(sep=" ") %}
+    {%- for word in text | split(pat=" ") %}
+      {%- set word_chars = word | length %}
+      {%- if not word or truncated %}
+      {%- elif chars + word_chars < 160 %}
+        {%- set_global words = words | concat(with=word) %}
+        {%- set_global chars = chars + word_chars + 1 %}
+      {%- else %}
+        {%- set_global truncated = true %}
+      {%- endif %}
+    {%- endfor %}
+  {%- endfor %}
+  {%- set description = words | join(sep=" ") | replace(from="&quot;", to='"') | replace(from="&#39;", to="'") | replace(from="&#x27;", to="'") | replace(from="&lt;", to="<") | replace(from="&gt;", to=">") | replace(from="&amp;", to="&") %}
+  {%- if truncated %}
+    {%- set description = description ~ "…" %}
+  {%- endif %}
+{%- endif %}
+<meta name="title" content="{{ title }}">
+  {%- if description %}
+  <meta name="description" content="{{ description }}">
+  {%- endif %}
+  {%- if url %}
+  <link rel="canonical" href="{{ url | safe }}">
+  {%- endif %}
+  <meta property="og:site_name" content="{{ config.title }}">
+  <meta property="og:title" content="{{ title }}">
+  {%- if description %}
+  <meta property="og:description" content="{{ description }}">
+  {%- endif %}
+  {%- if url %}
+  <meta property="og:url" content="{{ url | safe }}">
+  {%- endif %}
+  {%- if page %}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ page.date | date(format='%+') }}">
+  {%- else %}
+  <meta property="og:type" content="website">
+  {%- endif %}
+  <meta name="twitter:card" content="summary">
